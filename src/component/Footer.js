@@ -6,7 +6,7 @@ class Footer extends Component {
             <div>
                 <div className="footer-basic">
                     <footer data-aos="fade-up" data-aos-duration={1100}>
-                        <div className="social"><a href="" target="_blank"><i className="fa fa-github" /></a><a href="https://hci2021group04.tk/" target="_blank"><i className="fa fa-globe" /></a><a href="https://hci2021group04.tk/member" target="_blank"><i className="icon ion-ios-people" /></a></div>
+                        <div className="social"><a href="https://github.com/unlocker0808/FinishProject" target="_blank"><i className="fa fa-github" /></a><a href="https://hci2021group04.tk/" target="_blank"><i className="fa fa-globe" /></a><a href="https://hci2021group04.tk/member" target="_blank"><i className="icon ion-ios-people" /></a></div>
                         <ul className="list-inline">
                             <li className="list-inline-item"><a href="/">Trang chủ</a></li>
                             <li className="list-inline-item"><a href="/vietnam">Việt Nam</a></li>
