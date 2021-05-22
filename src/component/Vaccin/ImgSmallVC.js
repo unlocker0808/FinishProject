@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import "./vaccin.css";
 
 
 class ImgSmallVC extends Component {

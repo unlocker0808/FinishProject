@@ -3,7 +3,6 @@ import ContentVC from "./ContentVC";
 import HeaderVC from "./HeaderVC";
 import ImgSmallVC from "./ImgSmallVC";
 import LinkVC from "./LinkVC";
-import "./vaccin.css";
 
 class ExtraNewsVC extends Component {
   render() {

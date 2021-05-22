@@ -3,7 +3,6 @@ import ImgVC from "./ImgVC";
 import HeaderVC from "./HeaderVC";
 import LinkVC from "./LinkVC";
 import ContentVC from "./ContentVC";
-import "./vaccin.css";
 import Search from "../Search";
 
 class MainNewsCV extends Component {

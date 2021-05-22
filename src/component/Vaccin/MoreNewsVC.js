@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import MyImgVC from "./MyImgVC";
 import LinkVC from "./LinkVC";
 import HeaderVC from "./HeaderVC";
-import "./vaccin.css";
 
 class MoreNewsVC extends Component {
   render() {

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import MainNewsCV from "./MainNewsCV";
-import "./vaccin.css";
 import ExtraNewsVC from "./ExtraNewsVC";
 import MoreNewsVC from "./MoreNewsVC";
 import Search from "../Search";

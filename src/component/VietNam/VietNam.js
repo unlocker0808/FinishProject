@@ -4,7 +4,6 @@ import Search from "../Search";
 import News from "./News";
 import SubNews from "./SubNews";
 import TableNews from "./TableNews";
-import "./VietNamCSS.css";
 class VietNam extends Component {
   render() {
     return (
