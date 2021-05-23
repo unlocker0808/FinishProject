@@ -355,8 +355,9 @@ a.div03:hover {
   margin-bottom: 10px;
 }
 .bgHeaderVC {
-  background-color: #ff7a19;
-  color: black;
+  background-color: #f77f00;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .sizeImgVCMain {
@@ -380,12 +381,13 @@ a.div03:hover {
   font-size: 12px;
 }
 .displayVc3 {
+  margin-top: 30px;
   margin-left: 160px;
   padding-left: 10px;
 }
 .fStyleVC {
   text-align: center;
-  margin-bottom: -5px;
+  margin-bottom: 0px;
 }
 .displayVC4 {
   margin-top: -10px;
@@ -395,17 +397,20 @@ a.div03:hover {
   margin-top: -1000px;
 }
 .reFreshVC {
-  width: 1150px;
+  width: 1130px;
   clear: left;
   color: rgb(220, 53, 69);
   border-style: solid;
-  border-top: 10px;
+  border-top: 0px;
   border-left: 10px;
   border-right: 10px;
-  padding-bottom: -300px;
+  padding-bottom: -500px;
   margin-bottom: 100px;
   margin-left: 60px;
   text-align: left;
+}
+.reFreshVC h1{
+  margin-bottom: 0px;
 }
 .div3VC {
   margin-left: 60px;
@@ -1211,4 +1216,10 @@ ul.navbar-nav.ml-auto li a:hover {
   border-bottom: 2px solid var(--blue);
   padding-bottom: 5px;
   margin: 30px;
+}
+.bgHeaderVC h1{
+  padding-top: 5px;
+  height: 33.67px;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
 }

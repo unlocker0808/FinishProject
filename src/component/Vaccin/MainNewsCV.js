@@ -17,7 +17,7 @@ class MainNewsCV extends Component {
             <ImgVC path="assets/img/dead.gif"/>
           </div>
           <div>
-            <LinkVC long="http://www.google.com" title="BỘ Y TẾ CHO BIẾT: NHÂN VIÊN TỬ VONG SAU KHI TIÊM VACCIN COVID 19 LÀ DO SỐC PHẢN VỆ" />
+            <LinkVC long="http://www.google.com" title="BỘ Y TẾ CHO BIẾT: NHÂN VIÊN TỬ VONG SAU KHI TIÊM VACCIN COVID 19 LÀ DO SỐC PHẢN VỆ." />
             <div className="displayVC4">
               <ContentVC title="12/5/2021" />
             </div>
