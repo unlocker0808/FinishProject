@@ -4,7 +4,7 @@ class tableNews extends Component {
     render() {
         return (
             <div className="col-md-3">
-            <div className=".text-danger-new">
+            <div className="text-danger-new">
               <p className= "text-uppercase infection-header">
                 {this.props.title}
               </p>

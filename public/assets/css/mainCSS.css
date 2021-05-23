@@ -507,6 +507,7 @@ span.src-ncv:hover {
 }
 
 #vietnam {
+  background-color: white;
   padding-top: 100px;
   border: 1px solid #009cd7;
   padding-bottom: 50px;
@@ -548,6 +549,13 @@ span.src-ncv:hover {
   padding: 10px;
   margin-top: 20px;
 }
+.line-bottom {
+  margin-top: 20px;
+  border-width: 1px;
+  border-color: rgb(0, 156, 215);
+  /* border-style: solid; */
+  border-bottom-style: solid;
+}
 .paragraph_color_text_mainnews {
   float: left;
   color: #000000;
@@ -556,11 +564,11 @@ span.src-ncv:hover {
   font-weight: 800;
   margin-top: 5px;
 }
-.time-text {
+.time-text1 {
   opacity: 70%;
-  float: left;
-  font-size: 12px;
-  margin-top: -20px;
+    float: left;
+    font-size: 12px;
+    margin-top: 5px;
 }
 .col-md-6.col-lg-8.border-right-blue {
   border-right: 1px solid var(--blue);
@@ -573,9 +581,12 @@ span.src-ncv:hover {
   padding-bottom: 10px;
 }
 .paragraph_color_text_mainnews_infor {
-  font-size: 15px;
   float: left;
-  margin-top: -30px;
+  text-align: left;
+  color: #000000;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .main_title {
   border-bottom: 2px solid var(--red);
@@ -1195,12 +1206,6 @@ ul.navbar-nav.ml-auto li a:hover {
   color: #000000;
   text-align: left;
   font-size: 20px;
-}
-
-.paragraph_color_text_mainnews_infor {
-  font-size: 15px;
-  float: left;
-  margin-top: -30px;
 }
 
 .paragraph_color_text_subnews {

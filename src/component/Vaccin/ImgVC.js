@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 class ImgVC extends Component {
     render() {
         return (
