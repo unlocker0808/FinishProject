@@ -12,7 +12,7 @@ class World extends Component {
         className="text-center download-section content-section"
         id="vietnam"
       >
-        <Search/>
+        <Search />
         <div>
           <div>
             <div class="container">
@@ -33,22 +33,22 @@ class World extends Component {
                 <TableNews
                   kind="text-danger infection-number"
                   title="TỔNG SỐ CA NHIỄM"
-                  numbers="161.104.567"
+                  numbers="167.114.915"
                 />
                 <TableNews
                   kind="text-warning infection-number"
                   title="ĐANG NHIỄM"
-                  numbers="18.825.695"
+                  numbers="15.583.288"
                 />
                 <TableNews
                   kind="text-success infection-number"
                   title="KHỎI"
-                  numbers="138.933.059"
+                  numbers="148.061.344"
                 />
                 <TableNews
                   kind="text-dark infection-number"
                   title="TỬ VONG"
-                  numbers="3.345.813"
+                  numbers="3.470.283"
                 />
               </div>
             </div>
@@ -63,11 +63,19 @@ class World extends Component {
                   </div>
                   <MainNews
                     link="#"
-                    title="Ấn Độ ghi nhận hơn 360.000 ca nhiễm Covid-19 mới"
-                    time="(16:15 13/05/2021)"
-                    paths="assets/img/headnews-1.jpeg"
-                    details="Làn sóng dịch Covid-19 thứ hai chưa có dấu hiệu lắng dịu rõ ràng, Ấn Độ tiếp tục là nước ghi nhận nhiều ca mắc mới và tử vong do Covid-19 nhất trên thế giới. Quốc gia này báo cáo khoảng 50% trong tổng số ca mắc mới được phát hiện trên toàn cầu trong ngày qua"
+                    title="Thế giới ghi nhận tổng hơn 167 triệu ca mắc Covid-19"
+                    time="Chủ Nhật, 23-05-2021, 07:13"
+                    paths="assets/img/world-mainnew-2.jpeg"
+                    details="Theo số liệu trang Worldometers.info, tính đến 7 giờ ngày 23-5 (giờ Việt Nam), toàn thế giới ghi nhận hơn 167,02 triệu ca nhiễm Covid-19, trong đó có hơn 147,97 triệu ca đã hồi phục và 3.467.879 ca tử vong. Trong 24 giờ qua, thế giới ghi nhận hơn 557 nghìn ca nhiễm Covid-19, số ca tử vong ở mức hơn 10.300 ca."
                   />
+                  <MainNews
+                    link="#"
+                    title="Pháp điều tra các trường hợp máu khó đông hiếm gặp sau tiêm vaccine Covid-19"
+                    time="Thứ Bảy, 22-05-2021, 15:05"
+                    paths="assets/img/world-mainnews-2.jpg"
+                    details="Ngày 21-5, Cơ quan Quản lý dược phẩm Pháp (ANSM) cho biết, đang điều tra về ba trường hợp mắc chứng rối loạn ảnh hưởng đến khả năng máu khó đông hiếm gặp đã được báo cáo ở những người được tiêm vaccine Covid-19 của Pfizer-BioNTech."
+                  />
+
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="first_row_news">
@@ -75,9 +83,21 @@ class World extends Component {
                   </div>
                   <SubNews
                     link="#"
-                    paths="assets/img/1-1620898130739.jpg"
-                    title="EU khuyến cáo các nước thành viên tạm ngừng hoạt động đi lại không thiết yếu từ Ấn Độ"
-                    time="Thứ Năm, 13-05-2021, 16:15"
+                    paths="assets/img/world-subnews-1.jpg"
+                    title="Thái Lan phát hiện một số ổ dịch Covid-19 hơn nghìn người nhiễm"
+                    time="Thứ Bảy, 22-05-2021, 11:33"
+                  />
+                  <SubNews
+                    link="#"
+                    paths="assets/img/world-subnews-2.jpg"
+                    title="Nguy cơ bùng phát làn sóng dịch bệnh mới ở châu Phi"
+                    time="Chủ Nhật, 23-05-2021, 03:39"
+                  />
+                  <SubNews
+                    link="#"
+                    paths="assets/img/world-subnews-3.jpg"
+                    title="Châu Âu thảo luận về chứng nhận tiêm vắc-xin"
+                    time="Thứ Bảy, 22-05-2021, 02:39"
                   />
                   <SubNews
                     link="#"
@@ -88,6 +108,12 @@ class World extends Component {
                 </div>
               </div>
             </div>
+            <button type="button" class="btn btn-outline-info">
+              Trang trước
+              </button>
+            <button type="button" class="btn btn-outline-info">
+              Trang sau
+              </button>
           </div>
         </div>
       </section>
