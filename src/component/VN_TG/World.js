@@ -63,9 +63,9 @@ class World extends Component {
                   </div>
                   <MainNews
                     link="#"
-                    paths="assets/img/headnews-1.jpeg"
                     title="Ấn Độ ghi nhận hơn 360.000 ca nhiễm Covid-19 mới"
-                    time="16:15 13/05/2021"
+                    time="(16:15 13/05/2021)"
+                    paths="assets/img/headnews-1.jpeg"
                     details="Làn sóng dịch Covid-19 thứ hai chưa có dấu hiệu lắng dịu rõ ràng, Ấn Độ tiếp tục là nước ghi nhận nhiều ca mắc mới và tử vong do Covid-19 nhất trên thế giới. Quốc gia này báo cáo khoảng 50% trong tổng số ca mắc mới được phát hiện trên toàn cầu trong ngày qua"
                   />
                 </div>

@@ -5,14 +5,11 @@ import HomeDiv03 from './HomeDiv03';
 import Search from '../Search';
 
 
-
 class Home extends Component {
     render() {
         return (
             
             <div>
-                      
-
                 <section id="home" className="home">
                 <Search/>
                     <div className="container">

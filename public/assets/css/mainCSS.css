@@ -166,178 +166,6 @@
   width: 160px;
 }
 
-/* Home */
-.home {
-  background-color: white;
-  padding-top: 100px;
-}
-
-a {
-  color: #003893;
-}
-
-a:hover {
-  color: red;
-}
-
-small {
-  color: rgb(72, 69, 69);
-}
-
-.title {
-  color: white;
-  background-color: #f77f00;
-  font-size: 1.5rem;
-  margin-bottom: 5px;
-  padding-top: 5px;
-}
-
-.ctrl {
-  height: 370px;
-}
-
-.fcol {
-  text-align: justify;
-}
-
-.first-row {
-  border-bottom: 2px solid var(--red);
-  color: var(--red);
-}
-
-.btn {
-  border-radius: 10px;
-}
-
-/* css the div home thu 1 */
-
-.home-div.num1 {
-  margin-bottom: 100px;
-}
-
-.col.focus {
-  padding: 0px;
-  margin: 0 15px 0px;
-  border-bottom: 1px solid var(--secondary);
-}
-
-.content-focus {
-  font-weight: bold;
-}
-
-.content-care-1 {
-  font-weight: 500;
-}
-
-.col.care {
-  padding: 0px;
-}
-
-.row-care-1 {
-  display: inline-flex;
-}
-
-.col.care-1 {
-  padding: 0px;
-  margin-right: 5px;
-  width: 100%;
-  height: 497px;
-  display: table-cell;
-  border-bottom: 1px solid var(--secondary);
-}
-
-.img-care {
-  width: 90%;
-}
-
-.content-care {
-  width: 90%;
-}
-
-.title.care {
-  margin-right: 20px;
-}
-
-/* the div home thu 2 */
-
-.col-card {
-  width: 280px;
-  height: 310px;
-  margin-bottom: 120px;
-}
-
-.card-body {
-  height: 310px;
-}
-
-.card.cards-shadow {
-  box-shadow: 2px 2px 30px #aaaaaa;
-}
-
-.card.cards-shadow.cards-hover:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  z-index: 99;
-}
-
-.card-header {
-  background-color: #f77f00;
-}
-
-/* css the div home thu 3 */
-
-.first-row.div03 {
-  text-align: left;
-  padding-top: 20px;
-  font-size: 1.5rem;
-}
-
-.col-div03 {
-  box-shadow: -7px 4px 15px 0px #a2b0bf;
-  border-radius: 10px;
-  margin-right: 55px;
-  margin-bottom: 100px;
-}
-
-a.div03 {
-  color: red;
-}
-
-a.div03:hover {
-  color: #f77f00;
-}
-
-.frow-col-div03 {
-  border-bottom: 1px solid var(--secondary);
-  color: #000000;
-}
-
-.btn-home {
-  margin-bottom: 10px;
-}
-
-.btn01 {
-  background-color: #dc3545;
-}
-
-.btn02 {
-  background-color: #ffc107;
-}
-
-.btn03 {
-  background-color: #17a2b8;
-}
-
-.btn04 {
-  background-color: #28a745;
-}
-
-.btn05 {
-  background-color: #007bff;
-}
-
 /* Vaccin */
 
 .columnNewsMainVC {
@@ -409,7 +237,7 @@ a.div03:hover {
   margin-left: 60px;
   text-align: left;
 }
-.reFreshVC h1{
+.reFreshVC h1 {
   margin-bottom: 0px;
 }
 .div3VC {
@@ -566,9 +394,9 @@ span.src-ncv:hover {
 }
 .time-text1 {
   opacity: 70%;
-    float: left;
-    font-size: 12px;
-    margin-top: 5px;
+  float: left;
+  font-size: 12px;
+  margin-top: 5px;
 }
 .col-md-6.col-lg-8.border-right-blue {
   border-right: 1px solid var(--blue);
@@ -668,22 +496,20 @@ a:hover {
 
 /* Button */
 
-/* .button {
+.button {
   display: inline-block;
   position: relative;
   margin: 1em;
   padding: 10px 30px;
   border: 2px solid #009cd7;
-  2px solid #42dca3;: hidden;
   text-decoration: none;
   font-size: 14px;
   outline: none;
   color: white;
-  #42dca3;: transparent;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 700;
   background-color: #009cd7;
-} */
+}
 
 .button span {
   -webkit-transition: 0.4s;
@@ -815,7 +641,6 @@ a:hover {
   margin: auto;
 }
 
-
 .hotnew {
   color: #f77f00;
   margin-bottom: 0px;
@@ -853,7 +678,6 @@ a:hover {
 #carousel-control {
   height: 371.422px;
 }
-
 
 .col.quantam {
   padding-left: 0px;
@@ -1055,7 +879,6 @@ ul.navbar-nav.ml-auto li a:hover {
   color: #070a0c;
 }
 
-
 .home-col-quantam {
   border-bottom: 1px solid var(--secondary);
   height: 491px;
@@ -1160,8 +983,6 @@ ul.navbar-nav.ml-auto li a:hover {
   /*padding-top: 15px;*/
 }
 
-
-
 .title-link {
   font-size: 24px;
   color: black;
@@ -1222,7 +1043,7 @@ ul.navbar-nav.ml-auto li a:hover {
   padding-bottom: 5px;
   margin: 30px;
 }
-.bgHeaderVC h1{
+.bgHeaderVC h1 {
   padding-top: 5px;
   height: 33.67px;
   font-size: 1.5rem;
