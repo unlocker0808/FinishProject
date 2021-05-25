@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import MainNews from "./MainNews";
 import SubNews from './SubNews';
 import TableNews from './TableNews';
-import Search from '../Search';
 
 class World extends Component {
   render() {
@@ -12,7 +11,6 @@ class World extends Component {
         className="text-center download-section content-section"
         id="vietnam"
       >
-        <Search />
         <div>
           <div>
             <div class="container">

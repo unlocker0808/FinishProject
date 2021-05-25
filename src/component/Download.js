@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable no-unused-vars */
 import React, { Component } from "react";
-import Search from "./Search";
 
 class Download extends Component {
   render() {
@@ -12,7 +11,6 @@ class Download extends Component {
           id="download"
           style={{ backgroundColor: "white" }}
         >
-            <Search />
           <div className="container">
             <div className="row">
               <div className="col-lg-8 mx-auto">
@@ -30,7 +28,7 @@ class Download extends Component {
                       className="button"
                       role="button"
                       href="https://bluezone.gov.vn/"
-                      data-hover="Are you sure?" 
+                      data-hover="Are you sure?"
                       style={{ borderRadius: "70px" }}
                     >
                       <span>Tải Bluezone</span>

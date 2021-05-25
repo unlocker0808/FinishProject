@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 class Menu extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props);
     }
     render() {
         return (
             <div>
                 <nav className="navbar navbar-light navbar-expand-md fixed-top" id="mainNav" style={{ backgroundColor: '#009cd7' }}>
-                    <div className="container"><a className="navbar-brand js-scroll-trigger" href="/"><i style={{fontSize:'30px'}}>Covid 247</i></a>
+                    <div className="container"><a className="navbar-brand js-scroll-trigger" href="/"><i style={{ fontSize: '30px' }}>Covid 247</i></a>
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                             <ul className="navbar-nav ml-auto">
                                 {this.props.sections.map((section) => (
@@ -17,6 +17,14 @@ class Menu extends React.Component {
                                     </li>
                                 ))}
                             </ul>
+                            <a className="srch" href="#search">Tìm kiếm <div className="fa fa-search"></div></a>
+                            <div id="search">
+                                <button type="button" className="close">X</button>
+                                <form>
+                                    <input type="search" placeholder="Nhập từ cần tìm kiếm" />
+                                    <button type="submit" className="btn btn-primary">Tìm kiếm</button>
+                                </form>
+                            </div>
                             <a className="btn btn-primary" role="button" href="/login">Đăng nhập</a>
                         </div>
                     </div>

@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
-import Search from "../Search";
 import TableNews from "./TableNews";
 import MainNews from "./MainNews";
 import SubNews from "./SubNews";
@@ -13,7 +12,6 @@ class VietNam extends Component {
           className="text-center download-section content-section"
           id="vietnam"
         >
-          <Search />
           <div>
             <div>
               <div class="container">
