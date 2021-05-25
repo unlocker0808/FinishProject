@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 export default class Link extends Component {
-  render () {
+  render() {
     return (
       <div className="mylink">
         <a href={this.props.mylink}>{this.props.content}</a>

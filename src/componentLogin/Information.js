@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 export default class Information extends Component {
-  render () {
+  render() {
     return (
       <div className="text">
         <i className={this.props.icon} id="myicon" />
