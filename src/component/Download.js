@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable no-unused-vars */
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Download extends Component {
   render() {
@@ -9,45 +9,45 @@ class Download extends Component {
         <section
           className="text-center content-section"
           id="download"
-          style={{ backgroundColor: "white" }}
+          style={{ backgroundColor: 'white' }}
         >
           <div className="container">
             <div className="row">
               <div className="col-lg-8 mx-auto">
                 <h2>Tải app</h2>
-                <div style={{ display: "flex" }}>
-                  <div style={{ width: "50%", margin: "auto" }}>
+                <div style={{ display: 'flex' }}>
+                  <div style={{ width: '50%', margin: 'auto' }}>
                     <img
                       src="assets/img/bluezone.png"
                       style={{
-                        borderRadius: "75px",
-                        border: "2px solid #009cd7",
+                        borderRadius: '75px',
+                        border: '2px solid #009cd7',
                       }}
                     />
                     <a
                       className="button"
                       role="button"
                       href="https://bluezone.gov.vn/"
-                      data-hover="Are you sure?"
-                      style={{ borderRadius: "70px" }}
+                      data-hover="Bạn chắc chứ?"
+                      style={{ borderRadius: '70px' }}
                     >
                       <span>Tải Bluezone</span>
                     </a>
                   </div>
-                  <div style={{ width: "50%", margin: "auto" }}>
+                  <div style={{ width: '50%', margin: 'auto' }}>
                     <img
                       src="assets/img/ncovi.png"
                       style={{
-                        borderRadius: "75px",
-                        border: "2px solid #009cd7",
+                        borderRadius: '75px',
+                        border: '2px solid #009cd7',
                       }}
                     />
                     <a
                       className="button"
                       role="button"
                       href="https://ncovi.vnpt.vn/"
-                      data-hover="Are you sure?"
-                      style={{ borderRadius: "70px" }}
+                      data-hover="Bạn chắc chứ?"
+                      style={{ borderRadius: '70px' }}
                     >
                       <span>Tải NCOVI</span>
                     </a>

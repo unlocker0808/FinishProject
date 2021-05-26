@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Search from './Search';
 
 class Menu extends React.Component {
     constructor(props) {
@@ -17,14 +18,7 @@ class Menu extends React.Component {
                                     </li>
                                 ))}
                             </ul>
-                            <a className="srch" href="#search">Tìm kiếm <div className="fa fa-search"></div></a>
-                            <div id="search">
-                                <button type="button" className="close">X</button>
-                                <form>
-                                    <input type="search" placeholder="Nhập từ cần tìm kiếm" />
-                                    <button type="submit" className="btn btn-primary">Tìm kiếm</button>
-                                </form>
-                            </div>
+                           <Search/>
                             <a className="btn btn-primary" role="button" href="/login">Đăng nhập</a>
                         </div>
                     </div>

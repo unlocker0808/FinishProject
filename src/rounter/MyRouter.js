@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import {BrowserRouter as Router, Switch, Route,Link} from 'react-router-dom';
 import Login from '../UserReact/Login';
 import SignUp from '../UserReact/SignUp';
-
 import Forgot from '../UserReact/Forgot';
 
 
