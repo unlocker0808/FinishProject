@@ -10,4 +10,5 @@ $(function () {
             $(this).removeClass('open');
         }
     });
+    
 });

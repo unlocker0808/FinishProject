@@ -7,6 +7,8 @@ class Vaccin extends Component {
   render() {
     return (
       <div>
+        <p className="back-to-top1">Vaccin</p>
+
         <section className="sectionVC">
           <MainNewsCV />
           <ExtraNewsVC />

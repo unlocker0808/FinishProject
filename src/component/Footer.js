@@ -17,6 +17,7 @@ class Footer extends Component {
                         <p className="copyright">Design by team 4 © Human computer interaction 2021</p>
                     </footer>
                 </div>
+                <a href="#" className="back-to-top" ><i className="fa fa-chevron-up" /></a>
             </div>
         );
     }

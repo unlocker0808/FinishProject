@@ -11,6 +11,8 @@ class World extends Component {
         className="text-center download-section content-section"
         id="vietnam"
       >
+                        <p className="back-to-top1">Thế giới</p>
+
         <div>
           <div>
             <div class="container">

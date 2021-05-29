@@ -1,6 +1,18 @@
 (function ($) {
   "use strict"; // Start of use strict
 
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 200) {
+      $('.back-to-top').fadeIn('slow');
+    } else {
+      $('.back-to-top').fadeOut('slow');
+    }
+  });
+  $('.back-to-top').click(function () {
+    $('html, body').animate({ scrollTop: 0 }, 1500);
+    
+  });
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {

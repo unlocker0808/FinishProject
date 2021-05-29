@@ -8,6 +8,7 @@ class Home extends Component {
     render() {
         return (
             <div>
+                <p className="back-to-top1">Trang chủ</p>
                 <section id="home" className="home">
                     <div className="container">
                         <HomeDiv01 />
