@@ -25,7 +25,7 @@ class ExtraNewsVC extends Component {
 
           <div>
             <div className="displayVC">
-              <ImgSmallVC path="assets/img/vacxin-covid-19-h1.jpg"/>
+              <ImgSmallVC path="assets/img/vacxin-covid-19-h1.jpg" />
               <div className="displayVc3 ">
                 <LinkVC long="http://www.google.com" title="BỘ Y TẾ CÔNG BỐ NHỮNG ĐỐI TƯỢNG ĐƯỢC ƯU TIÊN TIÊM VACCIN COVID 19." />
                 {/* <ContentVC title="7/5/2021 17:00" /> */}
@@ -47,7 +47,7 @@ class ExtraNewsVC extends Component {
               <div className="displayVc3">
                 <LinkVC long="http://www.google.com" title="ĐẤY MẠNH NĂNG LỤC NGHIÊN CỨU VACCIN COVID TRONG NƯỚC." />
                 {/* <ContentVC title="1/5/2021 17:10" /> */}
-                <ContentVC title="CDCSD"/>
+                <ContentVC title="CDCSD" />
               </div>
             </div>
           </div>

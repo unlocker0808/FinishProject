@@ -3,7 +3,6 @@ import "./App.css";
 import Menu from "./component/Menu";
 import Footer from "./component/Footer";
 import RounterURL from "./rounter/RounterURL";
-import MyRounter from "./rounter/MyRouter";
 import Home from "./component/Home/Home";
 import VietNam from "./component/VN_TG/VietNam";
 import World from "./component/VN_TG/World";

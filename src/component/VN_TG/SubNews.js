@@ -7,7 +7,7 @@ class SubsNews extends Component {
     return (
       <div>
         <div class="padding-space">
-        <a class="paragraph_color_text_subnews" href={this.props.link}>
+          <a class="paragraph_color_text_subnews" href={this.props.link}>
             <strong>{this.props.title}</strong>
           </a>
           <a class="time-text1" href={this.props.link}>

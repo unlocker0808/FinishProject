@@ -4,7 +4,7 @@ class Button extends Component {
     render() {
         return (
             <div className="btn-home">
-                <a className={this.props.btn} role="button">{this.props.txt}<br/>{this.props.txt1}</a>
+                <a className={this.props.btn} role="button">{this.props.txt}<br />{this.props.txt1}</a>
             </div>
         );
     }

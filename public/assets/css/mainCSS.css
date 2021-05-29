@@ -1,4 +1,5 @@
 /* CSS login-signup-forgot */
+
 .thinh #main {
   width: 100%;
   height: 100%;
@@ -21,6 +22,7 @@
   transition: all 0.3s;
   margin-bottom: 150px;
 }
+
 .thinh .display-inline-block {
   display: inline-block !important;
   width: auto;
@@ -51,22 +53,15 @@
 }
 
 .thinh .col-md-6.mystyle1.mycolorlogin {
-  background: linear-gradient(143deg, rgb(255, 75, 43) 0%, rgb(255, 65, 108)),
-    rgb(255, 56, 56);
+  background: linear-gradient(143deg, rgb(255, 75, 43) 0%, rgb(255, 65, 108)), rgb(255, 56, 56);
 }
+
 .thinh .col-md-6.mystyle1.mycolorforgot {
-  background: linear-gradient(143deg, rgb(255, 65, 108) 0%, rgb(241, 139, 139)),
-    rgb(255, 56, 56);
+  background: linear-gradient(143deg, rgb(255, 65, 108) 0%, rgb(241, 139, 139)), rgb(255, 56, 56);
 }
 
 .thinh .col-md-6.mystyle1.mycolorsignup {
-  background: linear-gradient(
-      141deg,
-      black,
-      rgba(255, 75, 43, 0.685) 0%,
-      rgb(255, 0, 55)
-    ),
-    rgb(253, 133, 133);
+  background: linear-gradient( 141deg, black, rgba(255, 75, 43, 0.685) 0%, rgb(255, 0, 55)), rgb(253, 133, 133);
   height: 520px;
 }
 
@@ -114,11 +109,13 @@
 .thinh .col-md-6 {
   margin: auto;
 }
+
 .thinh .heading-right {
   text-shadow: 3px 3px 5px;
   box-shadow: 0px 0px;
   text-align: left;
 }
+
 .thinh .text {
   background: #e6e5e5;
   border-style: none;
@@ -134,11 +131,13 @@
   height: 30px;
   background: rgba(238, 238, 238, 0);
 }
+
 .thinh #myicon {
   font-size: 27px;
   margin: 10px;
   margin-left: 20px;
 }
+
 .thinh .mylink {
   text-align: right;
 }
@@ -147,6 +146,7 @@
   border-bottom: 1px solid rgb(218, 221, 225);
   text-align: center;
 }
+
 .thinh .btn.btn-primary.btn {
   text-align: center;
   width: 182.5938px;
@@ -160,6 +160,7 @@
 .thinh .signup-button {
   text-align: center;
 }
+
 .thinh .btn.btn-primary.btn-signup {
   color: rgb(33, 37, 41);
   background: rgb(0, 255, 161);
@@ -175,6 +176,7 @@
   padding-right: 15px;
   float: left;
 }
+
 .columnVC1 {
   width: 700px;
   height: 35px;
@@ -182,6 +184,7 @@
   margin-left: 65px;
   margin-bottom: 10px;
 }
+
 .bgHeaderVC {
   background-color: #f77f00;
   color: white;
@@ -191,6 +194,7 @@
 .sizeImgVCMain {
   margin-left: -10px;
 }
+
 .columnVC2 {
   width: 400px;
   height: 100px;
@@ -198,32 +202,39 @@
   margin-bottom: 10px;
   font-size: 18px;
 }
+
 .displayVC {
   float: left;
   font-size: 12px;
   margin-top: 10px;
   margin-bottom: 5px;
 }
+
 .displayVC2 {
   float: left;
   font-size: 12px;
 }
+
 .displayVc3 {
   margin-top: 30px;
   margin-left: 160px;
   padding-left: 10px;
 }
+
 .fStyleVC {
   text-align: center;
   margin-bottom: 0px;
 }
+
 .displayVC4 {
   margin-top: -10px;
   margin-bottom: -90px;
 }
+
 .displayVC5 {
   margin-top: -1000px;
 }
+
 .reFreshVC {
   width: 1130px;
   clear: left;
@@ -237,15 +248,18 @@
   margin-left: 60px;
   text-align: left;
 }
+
 .reFreshVC h1 {
   margin-bottom: 0px;
 }
+
 .div3VC {
   margin-left: 60px;
   margin-top: -80px;
   margin-bottom: 90px;
   max-height: 10px;
 }
+
 .smallImgVc {
   display: block;
   max-width: 260px;
@@ -256,9 +270,11 @@
   margin-top: -5px;
   margin-bottom: -5px;
 }
+
 .fVC1 {
   margin-left: 30px;
 }
+
 .divVC4 {
   clear: left;
   text-align: center;
@@ -269,6 +285,7 @@
 .sizeScream {
   max-width: 1130px;
 }
+
 .buttonVaccin {
   clear: left;
   border-style: none;
@@ -278,10 +295,12 @@
   margin-left: 0px;
   margin-bottom: 50px;
 }
+
 .smallImgVc img {
   width: 260px;
   height: 200px;
 }
+
 .displayBeTaVC {
   float: left;
   font-size: 12px;
@@ -292,14 +311,18 @@
   height: 1400px;
   padding-top: 100px;
 }
+
 /* Viet Nam   */
+
 .div-News {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .News-link {
   color: black;
 }
+
 a.News-link :hover {
   color: darkblue;
 }
@@ -308,12 +331,15 @@ a.News-link :hover {
   margin-bottom: 10px;
   color: rgb(0, 123, 255);
 }
+
 .news-img {
   width: 710px;
 }
+
 img.news-img :hover {
   width: 710px;
 }
+
 .text-center {
   background-color: white;
   color: black;
@@ -324,12 +350,15 @@ img.news-img :hover {
   background-color: white;
   color: black;
 }
+
 .src-ncv {
   text-decoration: underline;
 }
+
 span.src-ncv:hover {
   background-color: springgreen;
 }
+
 .tin-tuc {
   margin-top: 20px;
 }
@@ -354,7 +383,9 @@ span.src-ncv:hover {
 .search-form {
   margin: 5px;
 }
+
 /* World */
+
 .infection-header {
   font-size: 20px;
   font-weight: 600;
@@ -365,6 +396,7 @@ span.src-ncv:hover {
   font-weight: 700;
   line-height: 1;
 }
+
 .paragraph_color_text_subnews {
   float: left;
   color: #000000;
@@ -373,10 +405,12 @@ span.src-ncv:hover {
   font-weight: 800;
   margin-top: 5px;
 }
+
 .padding-space {
   padding: 10px;
   margin-top: 20px;
 }
+
 .line-bottom {
   margin-top: 20px;
   border-width: 1px;
@@ -384,6 +418,7 @@ span.src-ncv:hover {
   /* border-style: solid; */
   border-bottom-style: solid;
 }
+
 .paragraph_color_text_mainnews {
   float: left;
   color: #000000;
@@ -392,15 +427,18 @@ span.src-ncv:hover {
   font-weight: 800;
   margin-top: 5px;
 }
+
 .time-text1 {
   opacity: 70%;
   float: left;
   font-size: 12px;
   margin-top: 5px;
 }
+
 .col-md-6.col-lg-8.border-right-blue {
   border-right: 1px solid var(--blue);
 }
+
 .first_row_news {
   border-bottom: 2px solid var(--blue);
   color: var(--blue);
@@ -408,6 +446,7 @@ span.src-ncv:hover {
   height: 43.4px;
   padding-bottom: 10px;
 }
+
 .paragraph_color_text_mainnews_infor {
   float: left;
   text-align: left;
@@ -416,12 +455,15 @@ span.src-ncv:hover {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .main_title {
   border-bottom: 2px solid var(--red);
   color: var(--red);
   text-align: left;
 }
+
 /* Footer */
+
 .footer-basic {
   padding: 40px 0;
   background-color: #ffffff;
@@ -457,7 +499,7 @@ span.src-ncv:hover {
   padding-bottom: 25px;
 }
 
-.footer-basic .social > a {
+.footer-basic .social>a {
   font-size: 24px;
   width: 40px;
   height: 40px;
@@ -471,7 +513,7 @@ span.src-ncv:hover {
   opacity: 0.75;
 }
 
-.footer-basic .social > a:hover {
+.footer-basic .social>a:hover {
   opacity: 0.9;
 }
 
@@ -489,8 +531,7 @@ span.src-ncv:hover {
   background-color: #000000;
 }
 
-a:focus,
-a:hover {
+a:focus, a:hover {
   color: #0085a1;
 }
 
@@ -518,8 +559,7 @@ a:hover {
   transition: 0.4s;
 }
 
-.button:before,
-.button:after {
+.button:before, .button:after {
   content: "";
   position: absolute;
   top: 10px;
@@ -542,8 +582,7 @@ a:hover {
   transform: 0.4s;
 }
 
-.button:hover span,
-.button:active span {
+.button:hover span, .button:active span {
   opacity: 0;
   -webkit-transform: 0.4s;
   -moz-transform: 0.4s;
@@ -552,8 +591,7 @@ a:hover {
   transform: 0.4s;
 }
 
-.button:hover:before,
-.button:active:after {
+.button:hover:before, .button:active:after {
   opacity: 1;
   -webkit-transform: 0.4s;
   -moz-transform: 0.4s;
@@ -687,8 +725,8 @@ a:hover {
 .row.quantam {
   margin: auto;
 }
-a.animated-button:link:after,
-a.animated-button:visited:after {
+
+a.animated-button:link:after, a.animated-button:visited:after {
   content: "";
   position: absolute;
   height: 0%;
@@ -702,19 +740,16 @@ a.animated-button:visited:after {
   transition: all 0.75s ease 0s;
 }
 
-a.animated-button:link:hover,
-a.animated-button:visited:hover {
+a.animated-button:link:hover, a.animated-button:visited:hover {
   color: #fff;
   text-shadow: none;
 }
 
-a.animated-button:link:hover:after,
-a.animated-button:visited:hover:after {
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
   height: 450%;
 }
 
-a.animated-button:link,
-a.animated-button:visited {
+a.animated-button:link, a.animated-button:visited {
   position: relative;
   margin: 8px auto 0;
   padding: 9px 22px;
@@ -745,6 +780,7 @@ a.animated-button.victoria-one:after {
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
   transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 }
+
 .add {
   background: #d32641;
   padding: 20px;
@@ -1043,6 +1079,7 @@ ul.navbar-nav.ml-auto li a:hover {
   padding-bottom: 5px;
   margin: 30px;
 }
+
 .bgHeaderVC h1 {
   padding-top: 5px;
   height: 33.67px;
