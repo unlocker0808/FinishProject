@@ -18,6 +18,32 @@ class Footer extends Component {
                     </footer>
                 </div>
                 <a href="#" className="back-to-top" ><i className="fa fa-chevron-up" /></a>
+
+
+                <div className="bt-cn">
+                    <div className="material-button-anim">
+                        <ul className="list-inline" id="options">
+                            <li className="option">
+                                <button className="material-button option1 bg-danger1" type="button">
+                                    <a className="text-trang" href="#"><span className="fa fa-phone" aria-hidden="true" /></a>
+                                </button>
+                            </li>
+                            <li className="option">
+                                <button className="material-button option2 bg-success1" type="button">
+                                    <i className="fa fa-map-o" />
+                                </button>
+                            </li>
+                            <li className="option">
+                                <button className="material-button option3" type="button">
+                                    <a className="text-trang" href="/contact"><i className="fa fa-question" /></a>
+                                </button>
+                            </li>
+                        </ul>
+                        <button className="material-button material-button-toggle" type="button">
+                            <span className="fa fa-plus" aria-hidden="true" />
+                        </button>
+                    </div>
+                </div>
             </div>
         );
     }

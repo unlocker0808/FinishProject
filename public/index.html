@@ -40,6 +40,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script src="%PUBLIC_URL%/assets/js/MUSA_fullscreen-search.js"></script>
+  <script type="text/javascript">
+		$(document).ready(function () {
+		$('.material-button-toggle').on("click", function () {
+			$(this).toggleClass('open');
+			$('.option').toggleClass('scale-on');
+		});
+	});	</script>
 </body>
 
 </html>
